@@ -10,25 +10,72 @@ header nav {
 }
 header nav ul {
     list-style-type: none;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 header nav ul li a {
     text-decoration: none;
     color: #fff;
+    margin-right: 15px;
+}
+header nav ul li a:hover {
+    color: #c7c7c7;
 }
 
 main {
     text-align: center;
 }
+main h1 {
+    margin: 10px 0;
+}
+main .Search-bar {
+    margin-bottom: 10px;
+}
+main .Search-bar input {
+    padding: 5px;
+    border-radius: 15px;
+    border: 1px solid #c7c7c7; 
+}
+main .Search-bar button {
+    padding: 3px;
+    border-radius: 10px;
+    border: 1px solid #c7c7c7;
+    font-weight: 500;
+}
+main .Search-bar button:hover {
+    cursor: pointer;
+    background-color: #c9c9c9;
+}
 main .image-container img {
     width: 250px;
     height: 200px;
+    border-radius: 10px;
 }
+main .image-container img:hover {
+    scale: 1.1;
+}
+main .description h3,
+main .description h4 {
+    margin-bottom: 10px
+}
+
 main .description p {
-    width: 500px;
+    
 }
+  
+
 footer {
-    text-align: center;
+    width: 100%;
+    height: 50px;
     background-color: #333;
+    position: fixed;
+    bottom: 0; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 footer p {
     color: #fff;
