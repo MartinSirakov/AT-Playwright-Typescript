@@ -80,3 +80,15 @@ type PersonInfoType = string | number;
 
 const personNameInf: PersonInfoType = "Ivan";
 const personAgeInf: PersonInfoType = 25;
+
+type Status = "approved" | "rejected" | "pending" | "fullFiled";
+
+const currentStatus: Status = "fullFiled"
+
+type PersonData = {
+    name: string;
+    lastName: string;
+    age: number;
+    city: "Sofia" | "Plovdid" | "Varna";
+};
+
